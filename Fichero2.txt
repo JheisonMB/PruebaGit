@@ -1,1 +1,2 @@
 agregamos algo
+corrigimos error en bugfix.CorregirError
