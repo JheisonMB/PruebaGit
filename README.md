@@ -2,7 +2,7 @@
 ```mermaid  
 graph TD    
     A[Inicio] --> C[Clonar el Repositorio a tu Máquina Local]
-    C --> D[Crear una nueva rama desde `develop` con la convención: feature.NewFunction  bugfix.NameError]
+    C --> D[Crear una nueva rama desde `develop` con la convención: feature/NewFunction  bugfix/NameError]
     D --> E[Realizar Cambios en el Código]
     E --> F[Hacer commits descriptivos de los cambios]
     F --> G[Hacer Push de la Rama al Repositorio]
