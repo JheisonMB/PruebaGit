@@ -19,14 +19,14 @@ gitGraph
     branch develop
     checkout develop
     commit id: "Estado inicial de develop"
-    branch feature.NewFunction
-    checkout feature.NewFunction
+    branch feature/NewFunction
+    checkout feature/NewFunction
     commit id: "Cambios en el código"
     commit id: "Más cambios"
     checkout develop
     merge feature/NewFunction tag: "Pull Request"
-    branch bugfix.NameError
-    checkout bugfix.NameError
+    branch bugfix/NameError
+    checkout bugfix/NameError
     commit id: "Corrección de error"
     checkout develop
     merge bugfix/NameError tag: "Pull Request"
