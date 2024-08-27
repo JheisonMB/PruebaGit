@@ -24,12 +24,12 @@ gitGraph
     commit id: "Cambios en el código"
     commit id: "Más cambios"
     checkout develop
-    merge feature.NewFunction tag: "Pull Request"
+    merge feature/NewFunction tag: "Pull Request"
     branch bugfix.NameError
     checkout bugfix.NameError
     commit id: "Corrección de error"
     checkout develop
-    merge bugfix.NameError tag: "Pull Request"
+    merge bugfix/NameError tag: "Pull Request"
     commit id: "Revisión y merge de PRs"
     checkout main
     merge develop tag: "Pull Request"
